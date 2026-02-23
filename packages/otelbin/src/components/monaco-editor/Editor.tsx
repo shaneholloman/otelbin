@@ -3,6 +3,8 @@
 
 "use client";
 
+import "./monacoWorkerSetup";
+
 import { useCallback, useEffect, useMemo, useState } from "react";
 import type { IError } from "./ValidationErrorConsole";
 import ValidationErrorConsole from "./ValidationErrorConsole";
